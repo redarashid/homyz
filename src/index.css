@@ -74,3 +74,8 @@ a {
   justify-content: center;
   align-items: flex-start;
 }
+
+.secoundryText {
+  color: rgb(140 139 139);
+  font-size: 0.9rem;
+}
