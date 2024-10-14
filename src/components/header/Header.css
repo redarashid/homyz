@@ -1,0 +1,22 @@
+
+.h_wraper {
+    background-color: var(--black);
+    color: #fff;
+}
+.h_menu {
+    gap: 2rem;
+}
+.h_menu a:hover {
+    color: var(--blue);
+    transition: 0.3s ease-in-out;
+
+}
+.h_menu>*:hover {
+    cursor: pointer;
+}
+.h_container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);
+    justify-content: space-between;
+}
