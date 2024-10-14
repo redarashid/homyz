@@ -4,7 +4,6 @@ import logo from '../../images/logo.png'
 
 const Header = () => {
   return (
-    <div>
      <section className='h_wraper'>
         <div className='flexCenter paddings innerWidth h_container'>
             <img src={logo} alt='logo' width={100}/>
@@ -21,7 +20,6 @@ const Header = () => {
             </div>
         </div>
      </section>
-    </div>
   )
 }
 

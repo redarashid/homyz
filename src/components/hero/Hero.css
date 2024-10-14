@@ -1,0 +1,65 @@
+
+.hero_wraper {
+    position: relative;
+    color: #FFF;
+    padding-bottom: 2rem;
+    background-color: var(--black);
+}
+.hero-container {
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* Left Side */
+
+.hreo_left {
+    gap: 3rem;
+}
+.hero_title {
+    position: relative;
+    z-index: 1;
+}
+.hero_title>h1 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+.orange_cricle {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 999px;
+    background: var(--orange-gradient);
+    position: absolute;
+    right: 28%;
+    top: -12%;
+    z-index: -1;
+}
+.searsh_bar {
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border: 3px solid rgb(120, 120, 120, 0.374);
+    justify-content: space-between;
+}
+.searsh_bar> i {
+    color: var(--blue);
+}
+.searsh_bar>input {
+    border: none;
+    outline: none;
+}
+
+/* Left Side */
+
+
+.img_container {
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0 ;
+    border: 8px solid rgb(255, 255, 255, 0.12);
+}
+.img_container>img {
+    width: 100%;
+    height: 100%;
+}
