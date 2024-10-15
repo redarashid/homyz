@@ -19,7 +19,7 @@ const ContactUs = () => {
                          
                         <div className='flexStart row'>
 
-                        <div className='flexColCenter mode'>
+                            <div className='flexColCenter mode'>
                         <div className='flexStart'>
                             <div className='flexCenter icon'>
                                 <MdCall size={25}/>
@@ -30,8 +30,8 @@ const ContactUs = () => {
                             </div>
                         </div>
                         <div className='flexCenter button'>Call Now</div>
-                        </div>
-                        <div className='flexColCenter mode'>
+                            </div>
+                            <div className='flexColCenter mode'>
                         <div className='flexStart'>
                             <div className='flexCenter icon'>
                                 <BsFillChatDotsFill size={25}/>
@@ -42,12 +42,12 @@ const ContactUs = () => {
                             </div>
                         </div>
                         <div className='flexCenter button'>Chate Now</div>
-                        </div>
+                            </div>
                         </div>
                         
                         <div className='flexStart row'>
 
-                        <div className='flexColCenter mode'>
+                            <div className='flexColCenter mode'>
                         <div className='flexStart'>
                             <div className='flexCenter icon'>
                                 <HiChatBubbleBottomCenter size={25}/>
@@ -58,8 +58,8 @@ const ContactUs = () => {
                             </div>
                         </div>
                         <div className='flexCenter button'>Video Call Now</div>
-                        </div>
-                        <div className='flexColCenter mode'>
+                            </div>
+                            <div className='flexColCenter mode'>
                         <div className='flexStart'>
                             <div className='flexCenter icon'>
                                 <BsFillChatDotsFill size={25}/>
@@ -70,11 +70,8 @@ const ContactUs = () => {
                             </div>
                         </div>
                         <div className='flexCenter button'>Message Now</div>
+                            </div>
                         </div>
-                        </div>
-
-
-                    
 
               </div>
           </div>
