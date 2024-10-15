@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import Value from './components/our-Value/Value';
 import Residencies from './components/residencies/Residencies';
+import Started from './components/started/Started';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Residencies/>
       <Value/>
       <ContactUs/>
+      <Started/>
     </div>
   );
 }
