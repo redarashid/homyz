@@ -4,7 +4,7 @@ import logo from '../../images/logo.png'
 
 const Header = () => {
   return (
-     <section className='h_wraper'>
+     <section id='Header' className='h_wraper'>
         <div className='flexCenter paddings innerWidth h_container'>
             <img src={logo} alt='logo' width={100}/>
 

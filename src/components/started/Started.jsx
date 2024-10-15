@@ -3,7 +3,7 @@ import './Starte.css'
 
 const Started = () => {
   return (
-    <section className='g-wraper'>
+    <section id='Started' className='g-wraper'>
         <div className='paddings innerWidth g-container'>
             <div className='flexColCenter inner-container'>
                 <span className='primaryText'>Get started with Homyz</span>

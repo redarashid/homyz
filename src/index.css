@@ -93,15 +93,60 @@ a {
 
 
 
-@media (min-width: 1280px), (min-width: 768px) {
-  .paddings {
-      padding: 2rem;
+/* media queries */
+@media (min-width: 1536px) {
+  .innerWidth {
+    max-width: 1280px;
+    margin: auto;
   }
 }
 
 @media (min-width: 640px) {
   .paddings {
-      padding: 4rem;
+    padding: 4rem;
   }
 }
 
+@media (min-width: 1280px), (min-width: 768px) {
+  .paddings {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .primaryText {
+    font-size: 1.5rem;
+  }
+  .orangeText {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .r-head {
+    align-items: center;
+    padding: 0 58px;
+  }
+  .c-container {
+    flex-direction: column;
+  }
+  .contactModes {
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .image-container {
+      width: 80%;
+      height: auto;
+      margin: 0 43px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .mode {
+      width: 100%;
+  }
+}

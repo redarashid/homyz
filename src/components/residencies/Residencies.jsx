@@ -10,7 +10,7 @@ import { Navigation } from 'swiper/modules';
 
 const Residencies = () => {
   return (
-    <section className='r-wrapper'>
+    <section id='Residencies' className='r-wrapper'>
       <div className='paddings innerWidth r-container'>
         <div className='flexColStart r-head'>
           <span className='orangeText'>Best Choices</span>

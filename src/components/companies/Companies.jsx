@@ -8,7 +8,7 @@ import logo4 from '../../images/realty.png'
 const Companies = () => {
   return (
     <div>
-      <section className='c-wrapper'>
+      <section id='Companies' className='c-wrapper'>
         <div className='innerWidth paddings flexCenter c-container'>
             <img src={logo1} alt='img'/>
             <img src={logo2} alt='img'/>
