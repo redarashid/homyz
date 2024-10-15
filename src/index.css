@@ -76,18 +76,18 @@ a {
 }
 
 .secoundryText {
-  color: rgb(140 139 139);
+  color: #8c8b8b;
   font-size: 0.9rem;
 }
 .primaryText {
   color: #1f3e72;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2rem;
 }
 
 .secondaryText {
-  color: rgb(140 139 139);
-  font-size: 0.9rem;
+  color: #8c8b8b;
+  font-size: .9rem;
 }
 .orangeText {
   color: orange;
