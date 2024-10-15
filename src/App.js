@@ -1,5 +1,6 @@
 import './App.css';
 import Companies from './components/companies/Companies';
+import ContactUs from './components/contact/ContactUs';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import Value from './components/our-Value/Value';
@@ -16,6 +17,7 @@ function App() {
       <Companies/>
       <Residencies/>
       <Value/>
+      <ContactUs/>
     </div>
   );
 }
